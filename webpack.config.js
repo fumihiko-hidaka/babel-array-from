@@ -27,9 +27,9 @@ module.exports = [
                 '@babel/plugin-transform-runtime',
                 {
                   'corejs': 2,
-                  'helpers': false,
+                  'helpers': true,
                   'regenerator': true,
-                  'useESModules': true
+                  'useESModules': false
                 }
               ]
             ],
